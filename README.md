@@ -1,3 +1,6 @@
+# Node js
+
+
 El servidor se ejecuta con express.js, 
 hace get y post, crearPersonas.html es donde esta el formulario,
 MostrarPersonas.js es donde esta lo de request-promise 
