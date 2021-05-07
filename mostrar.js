@@ -6,9 +6,7 @@ const options = {
 
 rp(options)
     .then(function (response) {
-        // Process html...
-        console.log('Entro:  ',response);
+        console.log('Json de Pro contacto:  ',response);
     })
     .catch(function (err) {
-        // Crawling failed...
     });
