@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Registro Personas</title>
+    <link rel="icon" type="image/png" href="assets/img/avatars/Mundo.png">
+  
+</head>
+
+<body>
+    <form id= "formulario" method="POST" action="/localhost:3000/prueba">
+        <div>
+          <label for="uname">Nombre: </label>
+          <input type="text" id="uname" name="nombre" >
+        </div>
+        <div>
+          <div>
+            <label for="uname">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" >
+          </div>
+          <div>
+            <div>
+              <label for="uname">RFC: </label>
+              <input type="text" id="rfc" name="dni">
+              <p>Para el RFC deben de ser de 10 numeros maximo.</p>
+            </div>
+            <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+</body>
+
+</html>
